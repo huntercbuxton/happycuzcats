@@ -1,17 +1,15 @@
-
-
 #banner-container {
-    position: absolute;
-    top: 100px;
-    width: 100vw;
+   position: absolute;
+   top: 100px;
+   width: 100vw;
 }
 
 #banner {
-    position: relative;
-    display: block;
-    width: 75vw;
-    margin: 0 auto;
-    border-radius: 20px;
+   position: relative;
+   display: block;
+   width: 75vw;
+   margin: 0 auto;
+   border-radius: 20px;
 }
 
 #banner-title {
@@ -23,23 +21,38 @@
    border-radius: 20px;
 }
 
+h1 {
+   padding: 1em;
+}
+
 /* 1. Define the grid container */
 .image-grid {
-  display: grid;
-  /* Automatically creates columns that are at least 250px wide, 
+   display: grid;
+   /* Automatically creates columns that are at least 250px wide, 
      filling the available row space dynamically */
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 }
 
 /* 2. Style the images inside the grid */
 .image-grid img {
-  width: 100%;
-  height: 100%;
-  /* Forces the image to behave like a background-image, 
+   width: 100%;
+   height: 100%;
+   /* Forces the image to behave like a background-image, 
      cropping instead of stretching */
-  object-fit: cover; 
-  /* Forces the images to stay perfectly square. 
+   object-fit: cover;
+   /* Forces the images to stay perfectly square. 
      Change to 4/3 or 16/9 if you want rectangles */
-  aspect-ratio: 1 / 1; 
-  
+   aspect-ratio: 1 / 1;
+
+}
+
+@media only screen and (min-width: 500px) {
+
+   /* 1. Define the grid container */
+   .image-grid {
+      display: grid;
+      /* Automatically creates columns that are at least 250px wide, 
+     filling the available row space dynamically */
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+   }
 }
