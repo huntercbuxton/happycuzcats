@@ -54,6 +54,8 @@ In the project directory, you can run the following commands:
 | `npm run dev` / `npm start` | Runs the app in development mode at `http://localhost:5173` or `3000`. |
 | `npm run build` | Builds the app for production to the `dist` or `build` folder. |
 | `npm run lint` | Lints the project files with oxlint to find and fix code style issues. | 
+| `npm run test` | Runs unit tests in the project with vitest | 
+
 
 ---
 

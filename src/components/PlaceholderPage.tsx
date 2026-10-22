@@ -32,10 +32,10 @@ export default function PlaceholderPage() {
 
     return (
         <>
-            <div id="banner-container">
+            <header id="banner-container">
                 <img id="banner" src="banner.png" />
                 <h1 id="banner-title">Cat cafe coming soon to Provo, UT</h1> 
-            </div>
+            </header>
             
             <div className="image-grid"> 
                 <FunnyGifs/>
