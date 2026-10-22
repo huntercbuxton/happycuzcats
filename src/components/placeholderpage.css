@@ -11,8 +11,8 @@
    margin: 0 auto;
    border-radius: 20px;
 }
-
-#banner-title {
+ 
+.yellow-container {
    background-color: #F2F7A0;
    max-width: 75vw;
    width: 400px;
@@ -22,9 +22,48 @@
 }
 
 h1 {
-   padding: 1em;
+   padding: 0.5em;
+   padding-bottom: 0;
 }
  
+.socials-container {
+   background-color: #F2F7A0;
+   max-width: 75vw;
+   width: fit-content;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;  
+   border-radius: 20px;
+   margin: 30px auto;
+   text-align: center;
+   vertical-align: center; 
+}
+
+span#socials-message {
+   margin: 0 auto;
+   display: block;
+   font-size: large;
+   margin-bottom: 1em;
+   padding-top: 0.25em;
+}
+
+a.socials-link {
+   margin: 0 auto;
+   display: block;
+   font-size: large;
+   margin-bottom: 1em;
+}
+
+.icon-hover {
+  color: #578EF5;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.icon-hover:hover {
+  color: #c2cee4;
+  transform: scale(1.1);
+}
+
 .image-grid {
    display: grid;
    /* Automatically creates columns that are at least 250px wide, filling the available row space dynamically */

@@ -13,7 +13,8 @@
   "dependencies": {
     "oxlint-tsgolint": "^7.0.2004",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "react-icons": "^5.7.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^7.0.1",
