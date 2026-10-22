@@ -15,7 +15,7 @@ function FunnyGifs() {
             <img src="img/funny/crazy-cat.gif" alt="crazy cat" />
             <img src="img/funny/creamer-cat.gif" alt="cat with coffee creamer on ears" />
             <img src="img/funny/cat-cat-dance.gif" alt="dancing cat" />
-            <img src="logo_blue_yellow.png" alt="Description" /> 
+            <img src="img/branding/logo_blue_yellow.png" alt="Description" /> 
             <img src="img/funny/manicure-cat.gif" alt="manicure cat" />
             <img src="img/funny/angry-cat.gif" alt="angry cat" />                
             <img src="img/funny/sharkcat-memecoin.gif" alt="shark cat" />
@@ -23,7 +23,7 @@ function FunnyGifs() {
             <img src="img/funny/rigby-rigby-cat.gif" alt="rigby rigby cat" />
             <img src="img/funny/sleepy-cat.gif" alt="sleepy cat" />
             <img src="img/funny/coffee-cat.gif" alt="coffee cat" />
-            <img src="logo_yellow_blue.png" alt="Description" />
+            <img src="img/branding/logo_yellow_blue.png" alt="Description" />
         </React.Fragment>
     )
 }
@@ -33,11 +33,12 @@ export default function PlaceholderPage() {
     return (
         <>
             <header id="banner-container">
-                <img id="banner" src="banner.png" />
+                <img id="banner" src="img/branding/banner.png" />
                 <h1 id="banner-title">Cat cafe coming soon to Provo, UT</h1> 
             </header>
             
             <div className="image-grid"> 
+                <FunnyGifs/>
                 <FunnyGifs/>
                 <FunnyGifs/>
             </div>
