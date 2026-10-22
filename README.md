@@ -2,16 +2,14 @@
 
 A website for the HappyCuzCats cafe in Provo, Utah.
 
-👉 [Live Demo URL](https://happycuzcats.com)
+👉 [Live Prod URL](https://happycuzcats.com)
+👉 [Live Nonprod URL](https://dev.happycuzcats.com)
 
 ---
 
 ## 🛠️ Tech Stack
 
-*   **Frontend:** React (Vite / Create React App), TypeScript / JavaScript
-*   **Styling:** Tailwind CSS / Styled Components
-*   **State Management:** Redux Toolkit / Context API
-*   **Routing:** React Router DOM
+*   **Frontend:** React (Vite / Create React App), TypeScript / JavaScript 
 
 ---
 
@@ -28,7 +26,7 @@ You need to have **Node.js** installed on your machine.
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com
+    git clone git@github.com:huntercbuxton/happycuzcats.git
     cd your-repo-name
     ```
 
@@ -42,11 +40,8 @@ You need to have **Node.js** installed on your machine.
     yarn install
     ```
 
-3.  **Set up Environment Variables**
-    Create a `.env` file in the root directory and add your keys:
-    ```env
-    VITE_API_URL=https://example.com
-    ```
+3.  **Set up Environment Variables** 
+    N/A
 
 ---
 
@@ -58,8 +53,7 @@ In the project directory, you can run the following commands:
 | :--- | :--- |
 | `npm run dev` / `npm start` | Runs the app in development mode at `http://localhost:5173` or `3000`. |
 | `npm run build` | Builds the app for production to the `dist` or `build` folder. |
-| `npm run lint` | Lints the project files to find and fix code style issues. |
-| `npm test` | Launches the test runner in interactive watch mode. |
+| `npm run lint` | Lints the project files with oxlint to find and fix code style issues. | 
 
 ---
 
@@ -67,23 +61,14 @@ In the project directory, you can run the following commands:
 
 ```text
 src/
-├── assets/          # Static assets (images, icons, etc.)
+├── assets/          # Static assets (images, icons, etc.) **TODO: remove unused assets**
 ├── components/      # Reusable UI components (Button, Navbar, etc.)
-├── hooks/           # Custom React hooks
-├── pages/           # Page-level components / Views
-├── services/        # API integration and network requests
-├── store/           # Redux/State management configuration
 ├── App.tsx          # Main application component
 └── main.tsx         # JavaScript/TypeScript entry point
 ```
 
 ---
-
-## 📜 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-
+ 
 ## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
