@@ -43,15 +43,15 @@ export default function PlaceholderPage() {
                             <FaInstagram className="icon-hover" size={36} />
                         </a>
                     </div>
+                </div> 
+            </header> 
+            <main>
+                <div className="image-grid">
+                    <FunnyGifs />
+                    <FunnyGifs />
+                    <FunnyGifs />
                 </div>
-
-            </header>
-
-            <div className="image-grid">
-                <FunnyGifs />
-                <FunnyGifs />
-                <FunnyGifs />
-            </div>
+            </main>
         </>
     )
 }

@@ -9,7 +9,9 @@ A website for the HappyCuzCats cafe in Provo, Utah.
 
 ## 🛠️ Tech Stack
 
-*   **Frontend:** React (Vite / Create React App), TypeScript / JavaScript 
+*   **Frontend:** React (Vite / Create React App), TypeScript / JavaScript
+
+*   **Backend:** TBD
 
 ---
 
@@ -69,10 +71,8 @@ src/
 └── main.tsx         # JavaScript/TypeScript entry point
 ```
 
-## resources/links:
+## resources/links
 
 - [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules)
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
 - [React compiler documentation](https://react.dev/learn/react-compiler/installation). (The React Compiler is not enabled on the generated template project because of its impact on dev & build performances.)
-
- 
