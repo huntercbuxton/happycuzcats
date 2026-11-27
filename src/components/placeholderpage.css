@@ -1,0 +1,93 @@
+#banner-container {
+   position: absolute;
+   top: 100px;
+   width: 100vw;
+}
+
+#banner {
+   position: relative;
+   display: block;
+   width: 85vw;
+   margin: 0 auto;
+   border-radius: 20px;
+}
+ 
+.yellow-container {
+   background-color: #F2F7A0;
+   max-width: 75vw;
+   width: 400px;
+   color: #578EF5;
+   margin: 30px auto;
+   border-radius: 20px;
+}
+
+h1 {
+   padding: 0.5em;
+   padding-bottom: 0;
+}
+ 
+.socials-container {
+   background-color: #F2F7A0;
+   max-width: 75vw;
+   width: fit-content;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;  
+   border-radius: 20px;
+   margin: 30px auto;
+   text-align: center;
+   vertical-align: center; 
+}
+
+span#socials-message {
+   margin: 0 auto;
+   display: block;
+   font-size: large;
+   margin-bottom: 1em;
+   padding-top: 0.25em;
+}
+
+a.socials-link {
+   margin: 0 auto;
+   display: block;
+   font-size: large;
+   margin-bottom: 1em;
+}
+
+.icon-hover {
+  color: #578EF5;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.icon-hover:hover {
+  color: #c2cee4;
+  transform: scale(1.1);
+}
+
+.image-grid {
+   display: grid;
+   /* Automatically creates columns that are at least 250px wide, filling the available row space dynamically */
+   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+ 
+.image-grid img {
+   width: 100%;
+   height: 100%;
+   /* Forces the image to behave like a background-image,cropping instead of stretching */
+   object-fit: cover;
+   /* Forces the images to stay perfectly square. Change to 4/3 or 16/9 if you want rectangles */
+   aspect-ratio: 1 / 1;
+
+}
+
+@media only screen and (min-width: 500px) {
+ 
+   #banner { 
+      width: 75vw; 
+   }
+
+   .image-grid {
+      display: grid; 
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+   }
+}
